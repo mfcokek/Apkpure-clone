@@ -1,0 +1,1135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0px;
+    background-color: #f2f5f9;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #fdfdfd;
+    height: 71px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    margin-top: 19px;
+}
+
+.navbar {
+    list-style: none;
+    text-decoration: none;
+    float: right;
+}
+
+.navbar ul {
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+    height: 71px;
+    line-height: 71px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar i {
+    font-size: 25px;
+    color: #24cd77;
+    margin-right: 8px;
+}
+
+.navbar ul li:hover {
+    background: #f5f5f5;
+}
+
+.navbar ul li a {
+    display: block;
+    text-decoration: none solid;
+    color: #666666;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 0 15px;
+}
+
+.site {
+    padding-top: 25px;
+}
+
+.sag {
+    float: right;
+    width: 320px;
+}
+
+.sol {
+    float: left;
+    width: 850px;
+}
+
+.clear {
+    clear: both;
+}
+
+.slider {
+    margin-bottom: 22px;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.24);
+    margin-bottom: 25px;
+}
+
+.cardhead {
+    background-color: #fbfbfb;
+    font-size: 18px;
+    border-bottom: 1px solid #e8e8e8;
+    height: 56px;
+}
+
+.cardhead a {
+    text-decoration: none;
+    color: #666666;
+    line-height: 56px;
+    padding-left: 10px;
+}
+
+.cardhead a:hover {
+    color: #00a6ed;
+}
+
+.carddahafazla {
+    float: right;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.card-list {
+    padding: 15px;
+}
+
+.apk {
+    padding-top: 10px;
+    width: 33%;
+    height: 85px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.apk:hover {
+    background-color: #f5f7fa;
+}
+
+.apkimg {
+    float: left;
+    margin-right: 7px;
+}
+
+.apkimg img {
+    width: 75;
+    height: 75;
+}
+
+.apkhead {
+    margin-bottom: 25px;
+}
+
+.apkhead a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #666;
+}
+
+.apk:hover .apkhead a {
+    color: #00a6ed;
+}
+
+.rate {
+    color: #fa8b15;
+    font-weight: 500;
+    margin: 5px 0;
+}
+
+.apk .button {
+    display: none;
+    background-color: #24cd77;
+    color: #fff;
+    text-align: center;
+    min-width: 100px;
+    border: 0;
+    border-radius: 3px;
+    text-decoration: none;
+    height: 24px;
+}
+
+.apk:hover .button {
+    display: inline-block;
+}
+
+.apk P {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.apk:hover p {
+    display: none;
+}
+
+.apk span {
+    line-height: 20px;
+    color: #666666;
+}
+
+.arananlar {
+    background-color: #fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.24);
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.search input {
+    outline: 0;
+    width: 250px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    border: 2px solid #24cd77;
+    float: left;
+    padding-left: 5px;
+}
+
+.search button {
+    margin: 0;
+    padding: 0;
+    height: 35px;
+    width: 45px;
+    background-color: #24cd77;
+    border: 0;
+    color: #fff;
+    float: left;
+    outline: 0;
+    cursor: pointer;
+}
+
+.cokaranan {
+    background-color: #f2f5f9;
+    display: inline-block;
+    margin: 15px 5px 5px 6px;
+    border-radius: 3px;
+    height: 35px;
+}
+
+.cokaranan:hover {
+    background-color: #24cd77;
+}
+
+.cokaranan a {
+    text-decoration: none;
+    color: #5d5d5d;
+    line-height: 35px;
+    padding: 10px 11px;
+}
+
+.cokaranan a:hover {
+    color: #fff;
+}
+
+.trend {
+    display: inline-block;
+}
+
+.apk-list {
+    padding-top: 10px;
+    width: 98%;
+    height: 85px;
+    font-size: 14px;
+    padding-left: 13px;
+}
+
+.apk-list:hover {
+    background-color: #f5f7fa;
+}
+
+.apk-list-img {
+    float: left;
+    margin-right: 7px;
+}
+
+.apk-list-img a img {
+    width: 75px;
+    height: 75px;
+}
+
+.apk-list-head a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #666;
+}
+
+.apk-list:hover .apk-list-head a {
+    color: #00a6ed;
+}
+
+.apk-list-version {
+    color: #666;
+    font-weight: 500;
+    margin: 5px 0;
+}
+
+.apk-list .apk-list-button {
+    display: none;
+    background-color: #24cd77;
+    color: #fff;
+    text-align: center;
+    min-width: 100px;
+    border: 0;
+    border-radius: 3px;
+    text-decoration: none;
+    height: 24px;
+    line-height: 24px;
+}
+
+.apk-list:hover .apk-list-button {
+    display: inline-block;
+}
+
+.apk-list P {
+    display: block;
+    margin: 0;
+    padding: 0;
+    color: #666;
+}
+
+.apk-list:hover p {
+    display: none;
+}
+
+.sıralama {
+    display: inline-block;
+    float: left;
+    background-color: #e7e7e7;
+    color: #666666;
+    border-radius: 360px;
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 24px;
+    float: left;
+    display: inline-block;
+}
+
+.konular img {
+    width: 138px;
+    height: 73.23px;
+    display: inline-block;
+    margin: 2px;
+}
+
+.populer {
+    color: #666666;
+    line-height: 57px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.kategori {
+    width: 49%;
+    display: inline-block;
+    margin: 19px 0;
+}
+
+.kategori a {
+    color: #666;
+    text-decoration: none;
+}
+
+.kategori a:hover {
+    color: #00a6ed;
+}
+
+.footer {
+    background-color: #fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.24);
+    padding-top: 25px;
+    height: 400px;
+}
+
+.footer-1 {
+    float: left;
+    width: 25%;
+}
+
+.footer-1 ul {
+    margin-left: 15px;
+}
+
+.footer-1 p {
+    font-size: 18px;
+    color: #333333;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.footer-1 a {
+    color: #666;
+    text-decoration: none;
+}
+
+.footer-1 a:hover {
+    color: #00a6ed;
+}
+
+.footer-1 li {
+    padding: 4px 0;
+}
+
+.footer-2 {
+    float: left;
+    width: 25%;
+}
+
+.footer-2 ul {
+    margin-left: 15px;
+}
+
+.footer-2 p {
+    font-size: 18px;
+    color: #333333;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.footer-2 a {
+    color: #666;
+    text-decoration: none;
+}
+
+.footer-2 a:hover {
+    color: #00a6ed;
+}
+
+.footer-2 li {
+    padding: 4px 0;
+}
+
+.takipedin {
+    margin-bottom: 65px;
+}
+
+.takipedin ul {
+    padding: 0;
+    margin: 0;
+}
+
+.takipedin li {
+    list-style: none;
+}
+
+.footer-3 {
+    float: left;
+    width: 25%;
+}
+
+.footer-3 ul {
+    margin-left: 15px;
+}
+
+.footer-3 p {
+    font-size: 18px;
+    color: #333333;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.footer-3 a {
+    color: #666;
+    text-decoration: none;
+}
+
+.footer-3 a:hover {
+    color: #00a6ed;
+}
+
+.footer-3 li {
+    padding: 4px 0;
+}
+
+.footer-4 {
+    float: left;
+    width: 25%;
+}
+
+.footer-4 ul {
+    margin-left: 15px;
+}
+
+.footer-4 p {
+    font-size: 18px;
+    color: #333333;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.footer-4 a {
+    color: #666;
+    text-decoration: none;
+}
+
+.footer-4 a:hover {
+    color: #00a6ed;
+}
+
+.footer-4 li {
+    padding: 4px 0;
+}
+
+
+/*ürün */
+
+.ürün-card {
+    background-color: #fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.24);
+    margin-bottom: 25px;
+}
+
+.ürün-cardhead {
+    background-color: #fbfbfb;
+    font-size: 15px;
+    border-bottom: 1px solid #e8e8e8;
+    height: 56px;
+    padding-left: 10px;
+}
+
+.ürün-cardhead a {
+    text-decoration: none;
+    color: #666666;
+    line-height: 56px;
+    margin: 0 5px;
+}
+
+.ürün-cardhead a:hover {
+    color: #00a6ed;
+}
+
+.ürün-carddahafazla {
+    float: right;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.ürün-card-list {
+    padding: 15px;
+}
+
+.ürün-indirme {
+    padding: 11px;
+}
+
+.ürün-indirme-resim {
+    float: left;
+}
+
+.ürün-indirme-kismi {
+    float: left;
+    padding-left: 20px;
+    padding-top: 8px;
+}
+
+.ürün-isim {
+    margin-bottom: 18px;
+}
+
+.ürün-isim h1 {
+    color: #333;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.ürün-rate {
+    font-size: 16px;
+    color: #fa8b16;
+    margin-bottom: 18px;
+}
+
+.ürün-begeni {
+    width: 70px;
+    height: 40px;
+    border: 0px;
+}
+
+.ürün-begeni:focus {
+    outline: 0;
+    background-color: rgb(54, 226, 54);
+}
+
+.ürün-indirme-kismi a {
+    text-decoration: none;
+    color: #999;
+    font-size: 15px;
+}
+
+.ürün-indirme-kismi a:hover {
+    color: #24cd77;
+}
+
+.ürün-indir {
+    margin-top: 15px;
+    height: 35px;
+    width: 150px;
+    background-color: #24cd77;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.ürün-indir:hover {
+    background-color: #24cd83;
+}
+
+.ürün-indir a {
+    font-size: 17px;
+    color: #fff;
+    line-height: 35px;
+    text-decoration: none;
+    display: block;
+}
+
+.ürün-indir a:hover {
+    color: #fff;
+}
+
+.ürün-oyun-gorsel {
+    padding: 10px 0;
+    border-top: 1px solid #e8e8e8;
+}
+
+.ürün-oyun-acıklama {
+    padding: 10px 0;
+    padding-top: 25px;
+    border-top: 1px solid #e8e8e8;
+    color: #666;
+}
+
+.ürün-oyun-gorsel img {
+    width: 820px;
+}
+
+.ürün-yorum {
+    padding: 20px 0;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 10px;
+}
+
+.ürün-yorum textarea {
+    padding: 10px;
+    max-width: 80px;
+    max-height: 150px;
+    min-width: 800px;
+    min-height: 150px;
+}
+
+.ürün-yorum input {
+    font-size: 16;
+    margin-top: 20px;
+    float: right;
+    margin-right: 50px;
+    background-color: #24cd77;
+    border: 0;
+    color: #fff;
+    width: 80px;
+    height: 45px;
+    border-radius: 6px;
+}
+
+.yorum {
+    padding-top: 10px;
+}
+
+.yorum i {
+    float: left;
+    margin-right: 15px;
+}
+
+.yorum h2 {
+    color: #4682be;
+}
+
+.yanıtla {
+    margin-top: 15px;
+    color: #fff;
+    background-color: #24cd77;
+    border: 0px;
+    font-size: 18px;
+    width: 80px;
+}
+
+.yanıt-yaz {
+    margin-left: 100px;
+    margin-top: 20px;
+    max-width: 650px;
+    max-height: 80px;
+    min-width: 650px;
+    min-height: 80px;
+    padding: 10px;
+}
+
+.beğenenler {
+    display: inline-block;
+    font-size: 12px;
+}
+
+.beğenenler a {
+    text-decoration: none;
+    color: #666;
+}
+
+.alt-yorumlar {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.alt-yorumlar h3 {
+    color: #4682be;
+}
+
+.alt-yorum {
+    margin-bottom: 15px;
+    width: 600px;
+    float: left;
+    display: block;
+}
+
+.alt-yorum a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #666;
+}
+
+.ürün-apk-list .ürün-apk-list-button {
+    display: none;
+    background-color: #24cd77;
+    color: #fff;
+    text-align: center;
+    min-width: 100px;
+    border: 0;
+    border-radius: 3px;
+    text-decoration: none;
+    height: 24px;
+    line-height: 24px;
+}
+
+.ürün-apk-list:hover .ürün-apk-list-button {
+    display: inline-block;
+}
+
+.ürün-apk-list .a {
+    display: block;
+    margin: 0;
+    padding: 0;
+    color: #666;
+}
+
+.ürün-apk-list:hover .a {
+    display: none;
+}
+
+.ürün-apk-list {
+    padding-top: 10px;
+    width: 98%;
+    height: 85px;
+    font-size: 14px;
+    padding-left: 13px;
+}
+
+.ürün-apk-list:hover {
+    background-color: #f5f7fa;
+}
+
+.ürün-apk-list-head a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #666;
+}
+
+.ürün-apk-list:hover .ürün-apk-list-head a {
+    color: #00a6ed;
+}
+
+.ürün-apk-list-version {
+    color: #666;
+    font-weight: 500;
+    margin: 5px 0;
+}
+
+.ürün-apk-list p {
+    margin: 0;
+    padding: 0;
+    color: #666;
+}
+
+.ürün-sıralama {
+    display: inline-block;
+    float: left;
+    background-color: #e7e7e7;
+    color: #666666;
+    border-radius: 360px;
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 24px;
+    float: left;
+    display: inline-block;
+}
+
+
+/*kayıt*/
+
+.kayit-site {
+    padding-top: 40px;
+    height: 610px;
+}
+
+#kayit {
+    background: linear-gradient(to right, #49ca88, #9bc25d);
+}
+
+.kayit-kayit {
+    width: 392px;
+    height: 501px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.24);
+    padding-top: 25px;
+}
+
+h2 {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.kayit-kayit input {
+    margin-bottom: 25px;
+    width: 350px;
+    height: 40px;
+    border: 0px;
+    font-size: 18px;
+    border-bottom: 1px solid #e8e8e8;
+    outline: 0;
+    display: block;
+}
+
+.kayit-button {
+    cursor: pointer;
+    background-color: #24cd77;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.kayit-button:hover {
+    background-color: #24dc83;
+}
+
+.kayit-kayit input:focus {
+    border-bottom: 1px solid #24cd77;
+}
+
+.kayit-giris {
+    width: 74px;
+    height: 33px;
+    background-color: #fff;
+    border: 1px solid #24cd77;
+    border-radius: 4px;
+}
+
+.kayit-giris:hover {
+    background-color: #24cd77;
+}
+
+.kayit-giris a {
+    display: block;
+    text-decoration: none;
+    color: #24cd77;
+    font-size: 14px;
+    line-height: 33px;
+}
+
+.kayit-giris a:hover {
+    color: #fff;
+}
+
+.alert {
+    width: 350px;
+    height: 39px;
+    border: #e0b4b4;
+    border-radius: 3px;
+}
+
+
+/*katergori*/
+
+.kategori-site {
+    padding-top: 40px;
+}
+
+.kategori-sag {
+    float: right;
+    width: 850px;
+}
+
+.kategori-sol {
+    float: left;
+    width: 320px;
+}
+
+.clear {
+    clear: both;
+}
+
+.kategori-kategori {
+    width: 320px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.24);
+    background-color: #fff;
+}
+
+.kategori-head {
+    background-color: #24cd77;
+    height: 56px;
+    line-height: 56px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 15px;
+}
+
+.kategori-oyunlar {
+    height: 40px;
+    line-height: 40px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #eee;
+}
+
+.kategori-oyunlar a {
+    color: #616161;
+    ;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+}
+
+.kategori-oyunlar a:hover {
+    color: #24cd77;
+}
+
+.kategori-cesit {
+    padding-left: 5px;
+    width: 47%;
+    font-size: 14px;
+    height: 46px;
+    line-height: 46px;
+    display: inline-block;
+    margin-left: 2px;
+}
+
+.kategori-cesit a {
+    text-decoration: none;
+    color: #666;
+}
+
+.kategori-cesit a i {
+    font-size: 22px;
+}
+
+.kategori-cesit a:hover {
+    color: #5ba5fa;
+}
+
+.kategori-apps {
+    width: 850px;
+}
+
+.kategori-apps-head {
+    background-color: #fbfbfb;
+    padding: 0 9px;
+    height: 56px;
+    line-height: 56px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.kategori-apps-head-oyunlar {
+    float: left;
+    font-size: 18px;
+    color: #666;
+}
+
+.kategori-apps-head-sıralama {
+    float: right;
+    font-size: 13px;
+    font-weight: 400;
+    color: #666;
+}
+
+.kategori-sıralama {
+    display: inline-block;
+    border: 1px solid #24cd77;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 5px;
+}
+
+.kategori-sıralama a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    color: #666;
+}
+
+.kategori-apk-list {
+    background-color: #fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.24);
+    padding: 9px 7px;
+}
+
+.kategori-apk-box {
+    width: 25%;
+    height: 245px;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.kategori-apk-box img {
+    padding: 0 39px;
+}
+
+.kategori-star {
+    margin-top: 8px;
+    font-size: 15px;
+    color: #fa8b15;
+}
+
+.kategori-apk-box:hover {
+    background-color: #f5f7fa;
+}
+
+.kategori-apk-box a {
+    text-decoration: none;
+    color: #666;
+    font-weight: 600;
+}
+
+.kategori-apk-box:hover a p {
+    color: #00A6ED;
+}
+
+.kategori-apk-box .kategori-button {
+    display: none;
+    background-color: #24cd77;
+    color: #fff;
+    text-align: center;
+    min-width: 100px;
+    border: 0;
+    border-radius: 3px;
+    text-decoration: none;
+    line-height: 24px;
+    margin-top: 8px;
+}
+
+.kategori-apk-box:hover .kategori-button {
+    display: inline-block;
+}
+
+
+/*giris*/
+
+.giris-site {
+    padding-top: 40px;
+    height: 610px;
+}
+
+#giris-giris {
+    background: linear-gradient(to right, #49ca88, #9bc25d);
+}
+
+.giris-giris {
+    width: 392px;
+    height: 401px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.24);
+    padding-top: 25px;
+}
+
+h2 {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.giris-giris input {
+    margin-bottom: 25px;
+    width: 350px;
+    height: 40px;
+    border: 0px;
+    font-size: 18px;
+    border-bottom: 1px solid #e8e8e8;
+    outline: 0;
+    display: block;
+}
+
+.giris-giris input:focus {
+    border-bottom: 1px solid #24cd77;
+}
+
+.giris-button {
+    cursor: pointer;
+    background-color: #24cd77;
+    color: #fff;
+}
+
+.giris-button:hover {
+    background-color: #24dc83;
+}
+
+.giris-giris a {
+    text-decoration: none;
+    color: #fcaa15;
+}
+
+.giris-sosyal {
+    margin-top: 10px;
+    border-top: 1px solid #e5e5e5;
+    padding-top: 35px;
+}
+
+.giris-sosyal i {
+    margin-right: 10px;
+}

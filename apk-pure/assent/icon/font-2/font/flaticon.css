@@ -1,0 +1,81 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 09/10/2018 13:05
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-001-arrows:before { content: "\f100"; }
+.flaticon-002-insignia:before { content: "\f101"; }
+.flaticon-003-podium:before { content: "\f102"; }
+.flaticon-004-billiard:before { content: "\f103"; }
+.flaticon-005-bomb:before { content: "\f104"; }
+.flaticon-006-bowling:before { content: "\f105"; }
+.flaticon-007-cards:before { content: "\f106"; }
+.flaticon-008-diamond:before { content: "\f107"; }
+.flaticon-009-diamond-1:before { content: "\f108"; }
+.flaticon-010-dices:before { content: "\f109"; }
+.flaticon-011-gamepad:before { content: "\f10a"; }
+.flaticon-012-gameboy:before { content: "\f10b"; }
+.flaticon-013-console:before { content: "\f10c"; }
+.flaticon-014-game-console:before { content: "\f10d"; }
+.flaticon-015-game-console-1:before { content: "\f10e"; }
+.flaticon-016-joystick:before { content: "\f10f"; }
+.flaticon-017-gamepad-1:before { content: "\f110"; }
+.flaticon-018-controler:before { content: "\f111"; }
+.flaticon-019-joystick-1:before { content: "\f112"; }
+.flaticon-020-game-controller:before { content: "\f113"; }
+.flaticon-021-keyboard:before { content: "\f114"; }
+.flaticon-022-gift:before { content: "\f115"; }
+.flaticon-023-gun:before { content: "\f116"; }
+.flaticon-024-hammer:before { content: "\f117"; }
+.flaticon-025-hearts:before { content: "\f118"; }
+.flaticon-026-rocket:before { content: "\f119"; }
+.flaticon-027-joystick-2:before { content: "\f11a"; }
+.flaticon-028-joystick-3:before { content: "\f11b"; }
+.flaticon-029-keys:before { content: "\f11c"; }
+.flaticon-030-keys-1:before { content: "\f11d"; }
+.flaticon-031-magic-potion:before { content: "\f11e"; }
+.flaticon-032-memory-card:before { content: "\f11f"; }
+.flaticon-033-ghosts:before { content: "\f120"; }
+.flaticon-034-mouse:before { content: "\f121"; }
+.flaticon-035-pacman:before { content: "\f122"; }
+.flaticon-036-gaming:before { content: "\f123"; }
+.flaticon-037-pinball:before { content: "\f124"; }
+.flaticon-038-puzzle:before { content: "\f125"; }
+.flaticon-039-remote-control:before { content: "\f126"; }
+.flaticon-040-shield:before { content: "\f127"; }
+.flaticon-041-excalibur:before { content: "\f128"; }
+.flaticon-042-swords:before { content: "\f129"; }
+.flaticon-043-target:before { content: "\f12a"; }
+.flaticon-044-tetris:before { content: "\f12b"; }
+.flaticon-045-tic-tac-toe:before { content: "\f12c"; }
+.flaticon-046-treasure:before { content: "\f12d"; }
+.flaticon-047-video-game:before { content: "\f12e"; }
+.flaticon-048-videogame:before { content: "\f12f"; }
+.flaticon-049-videogame-1:before { content: "\f130"; }
+.flaticon-050-videogame-2:before { content: "\f131"; }

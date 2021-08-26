@@ -1,0 +1,356 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size:14px;
+  line-height:18px;
+  margin: 0px;
+  background-color:#f2f5f9;
+}
+.container{
+  width:1200px;
+  margin: 0 auto;
+}
+.header{
+  background-color:#fdfdfd;
+  height:71px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.logo{
+  float:left;
+}
+.logo img{
+  margin-top: 19px;
+}
+.navbar{
+  list-style:none;
+  text-decoration:none;
+  float: right;
+}
+.navbar ul{
+  padding: 0;
+  margin:0;
+  font-size: 0;
+}
+.navbar ul li{
+  display: inline-block;
+  height:71px;
+  line-height:71px;
+  text-align:center;
+  margin: 0;
+}
+.navbar i{
+  font-size:25px;
+  color:#24cd77;
+  margin-right:8px;
+}
+.navbar ul li:hover{
+  background:#f5f5f5;
+}
+.navbar ul li a{
+  display:block;
+  text-decoration:none solid;
+  color:#666666;
+  font-size:15px;
+  font-weight: 700;
+  padding: 0 15px;
+}
+.site{
+  padding-top:40px;
+}
+.sag{
+  float:right;
+  width:320px;
+}
+.sol{
+  float:left;
+  width:850px;
+}
+.card{
+  background-color:#fff;
+  box-shadow: 0px 1px 3px rgba(0,0,0,0.12), 0px 1px 2px rgba(0,0,0,0.24);
+  margin-bottom: 25px;
+}
+.cardhead{
+  background-color:#fbfbfb;
+  font-size:15px;
+  border-bottom:1px solid #e8e8e8;
+  height:56px;
+  padding-left:10px;
+}
+.cardhead a{
+  text-decoration:none;
+  color:#666666;
+  line-height:56px;
+  margin:0 5px;
+}
+.cardhead a:hover{
+  color:#00a6ed;
+}
+.carddahafazla{
+  float: right;
+  padding-right:10px;
+  font-size: 14px;
+}
+.card-list{
+  padding:15px;
+}
+.indirme{
+  padding:11px;
+}
+.indirme-resim{
+  float: left;
+}
+.indirme-kismi{
+  float: left;
+  padding-left:20px;
+  padding-top:8px;
+}
+.isim{
+  margin-bottom:18px;
+}
+.isim h1{
+  color:#333;
+  font-family:Helvetica;
+  font-weight: 400;
+  font-size: 32px;
+}
+.rate{
+  font-size:16px;
+  color:#fa8b16;
+  margin-bottom:18px;
+}
+.indirme-kismi a{
+  text-decoration:none;
+  color:#999;
+  font-size:15px;
+}
+.indirme-kismi a:hover{
+  color:#24cd77;
+}
+.indir{
+  margin-top:15px;
+  height:35px;
+  width:150px;
+  background-color:#24cd77;
+  text-align:center;
+  border-radius:8px;
+}
+.indir:hover{
+  background-color:#24cd83;
+}
+.indir a{
+  font-size:17px;
+  color:#fff;
+  line-height:35px;
+  text-decoration:none;
+  display:block;
+}
+.indir a:hover{
+  color:#fff;
+}
+.oyun-gorsel{
+  padding:10px 0;
+  border-top:1px solid #e8e8e8;
+}
+.oyun-acıklama{
+  padding:10px 0;
+  padding-top:25px;
+  border-top:1px solid #e8e8e8;
+  color:#666;
+}
+.oyun-gorsel img{
+  width:820px;
+}
+.apk-list .apk-list-button{
+  display: none;
+  background-color: #24cd77;
+  color:#fff;
+  text-align:center;
+  min-width: 100px;
+  border:0;
+  border-radius:3px;
+  text-decoration:none;
+  height: 24px;
+  line-height: 24px;
+}
+.apk-list:hover .apk-list-button{
+  display: inline-block;
+}
+.apk-list .a{
+  display:block;
+  margin: 0;
+  padding: 0;
+  color:#666;
+}
+.apk-list:hover .a{
+  display:none;
+}
+.apk-list{
+  padding-top:10px;
+  width:98%;
+  height:85px;
+  font-size: 14px;
+  padding-left:13px;
+}
+.apk-list:hover{
+  background-color:#f5f7fa;
+}
+.apk-list-img{
+  float: left;
+  margin-right:7px;
+}
+.apk-list-head a{
+  text-decoration:none;
+  font-weight:600;
+  color:#666;
+}
+.apk-list:hover .apk-list-head a{
+  color:#00a6ed;
+}
+.apk-list-version{
+  color: #666;
+  font-weight:500;
+  margin:5px 0;
+}
+.apk-list P{
+  margin: 0;
+  padding: 0;
+  color:#666;
+}
+.sıralama{
+  display: inline-block;
+  float:left;
+  background-color:#e7e7e7;
+  color:#666666;
+  border-radius:360px;
+  margin-right:5px;
+  width:25px;
+  height:25px;
+  text-align:center;
+  line-height:25px;
+  margin-top:24px;
+  float:left;
+  display: inline-block;
+}
+.clear{
+  clear:both;
+}
+.footer{
+  background-color:#fff;
+  box-shadow: 0px 1px 3px rgba(0,0,0,0.12), 0px 1px 2px rgba(0,0,0,0.24);
+  padding-top:25px;
+  height:400px;
+  margin-top:60px;
+}
+.footer-1{
+  float:left;
+  width: 25%;
+}
+.footer-1 ul{
+  margin-left: 15px;
+}
+.footer-1 p{
+  font-size: 18px;
+  color:#333333;
+  line-height:24px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.footer-1 a{
+  color:#666;
+  text-decoration:none;
+}
+.footer-1 a:hover{
+  color:#00a6ed;
+}
+.footer-1 li{
+  padding:4px 0;
+}
+.footer-2{
+  float:left;
+  width:25%;
+}
+.footer-2 ul{
+  margin-left: 15px;
+}
+.footer-2 p{
+  font-size: 18px;
+  color:#333333;
+  line-height:24px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.footer-2 a{
+  color:#666;
+  text-decoration:none;
+}
+.footer-2 a:hover{
+  color:#00a6ed;
+}
+.footer-2 li{
+  padding:4px 0;
+}
+.takipedin{
+  margin-bottom:65px;
+}
+.takipedin ul{
+  padding:0;
+  margin:0;
+}
+.takipedin li{
+  list-style: none;
+}
+.footer-3{
+  float:left;
+  width:25%;
+}
+.footer-3 ul{
+  margin-left: 15px;
+}
+.footer-3 p{
+  font-size: 18px;
+  color:#333333;
+  line-height:24px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.footer-3 a{
+  color:#666;
+  text-decoration:none;
+}
+.footer-3 a:hover{
+  color:#00a6ed;
+}
+.footer-3 li{
+  padding:4px 0;
+}
+.footer-4{
+  float:left;
+  width:25%;
+}
+.footer-4 ul{
+  margin-left: 15px;
+}
+.footer-4 p{
+  font-size: 18px;
+  color:#333333;
+  line-height:24px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.footer-4 a{
+  color:#666;
+  text-decoration:none;
+}
+.footer-4 a:hover{
+  color:#00a6ed;
+}
+.footer-4 li{
+  padding:4px 0;
+}
